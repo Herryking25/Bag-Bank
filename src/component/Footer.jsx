@@ -6,7 +6,7 @@ import { FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-[#131416]  text-white">
       {/* Top Grid Section */}
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div>

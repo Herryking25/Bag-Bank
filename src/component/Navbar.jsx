@@ -36,7 +36,7 @@ const Navbar = () => {
 
   const linkStyle = (id) =>
     `hover:underline ${
-      activeSection === id ? "text-yellow-300 font-semibold" : ""
+      activeSection === id ? "text-green-300 font-semibold" : ""
     }`;
 
   return (

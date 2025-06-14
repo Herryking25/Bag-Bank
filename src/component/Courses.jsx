@@ -6,7 +6,7 @@ const Courses = () => {
   const [selectedCourse, setSelectedCourse] = useState("Bit Teach");
 
   return (
-    <section id="courses" className=" bg-black text-white py-20 px-4 text-center">
+    <section id="courses" className=" bg-[#131416] text-white py-20 px-4 text-center">
       <h5 className="text-sm text-gray-500 uppercase">Courses</h5>
       <h2 className="text-4xl font-bold text-green-600 mt-2 mb-2">What We Offer</h2>
       <p className="text-sm text-gray-500 max-w-xl mx-auto mb-12">
@@ -25,7 +25,7 @@ const Courses = () => {
         />
         <OfferCard
           title="ELITE"
-          description="One on one mentorship with Bag Daddy"
+          description="Premium calls from Bag Daddy"
           learnMore="Learn more..."
           active={selectedCourse === "Elite"}
           onClick={() => setSelectedCourse("Elite")}
