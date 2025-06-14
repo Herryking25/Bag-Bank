@@ -1,5 +1,8 @@
 import React from "react";
-import { Instagram } from "lucide-react"; // Optional: or use image icon if preferred
+import { Instagram } from "lucide-react";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa6";
+import { FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -44,14 +47,32 @@ const Footer = () => {
           </div>
 
           {/* Social Icon */}
-          <div className="mt-6">
+          <div className="mt-6 flex gap-2">
             <a
-              href="https://instagram.com"
+              href="https://x.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <Instagram className="w-6 h-6 text-pink-500 hover:text-pink-400" />
+              <FaSquareXTwitter className="w-6 h-6 text-green-800 hover:text-green-400" />
+            </a>
+
+            <a
+              href="https://discord.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <FaDiscord className="w-6 h-6 text-green-800 hover:text-green-400" />
+            </a>
+            
+            <a
+              href="https://telegram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <FaTelegram className="w-6 h-6 text-green-800 hover:text-green-400" />
             </a>
           </div>
         </div>

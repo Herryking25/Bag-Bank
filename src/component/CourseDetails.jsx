@@ -26,7 +26,7 @@ const CourseDetails = ({ selected }) => {
     return (
     <div className="flex justify-center items-center">
 
-        <div className=" w-[900px] bg-white shadow-md rounded-md p-6 mt-12 flex flex-col md:flex-row gap-12 justify-center items-center">
+        <div className=" w-[900px] bg-[#131416] shadow-md rounded-md p-6 mt-12 flex flex-col md:flex-row gap-12 justify-center items-center">
             <img
             src={course.image}
             alt="Course"
@@ -34,8 +34,8 @@ const CourseDetails = ({ selected }) => {
             />
             <div className="text-center px-4 w-[300px] md:text-left">
             <h4 className="text-green-600 font-bold text-xl mb-2">{course.title}</h4>
-            <p className="w-[300px] md:w-[400px] text-sm text-gray-600  mb-4">{course.description}</p>
-            <button className="bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-2 rounded-full">
+            <p className="w-[300px] md:w-[400px] text-sm text-whitesmoke  mb-4">{course.description}</p>
+            <button className="bg-green-600 hover:bg-green-700 text-whitesmoke text-sm px-4 py-2 rounded-full">
                 Get course
             </button>
             </div>
